@@ -1,0 +1,9 @@
+Controller
+   ↓
+Service
+   ↓
+Repository
+   ↓
+Database
+
+Database → Entity → Service → DTO → Controller → JSON → Swagger UI
