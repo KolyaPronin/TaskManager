@@ -75,12 +75,6 @@ public class TaskServiceImpl implements TaskService {
 
         Task saved = taskRepository.save(task);
 
-        TaskDto result = new TaskDto();
-        result.setId(saved.getId());
-        result.setTitle(saved.getTitle());
-        result.setDescription(saved.getDescription());
-        result.setDone(saved.isDone());
-
-        return result;
+        return taskToTaskDto(saved);
     }
 }
