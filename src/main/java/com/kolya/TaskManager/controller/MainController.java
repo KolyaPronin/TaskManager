@@ -9,34 +9,35 @@ import java.util.List;
 
 @Slf4j
 @RestController
+@RequestMapping("/api/task")
 public class MainController {
     private final TaskServiceImpl service;
     public MainController(TaskServiceImpl service) {
         this.service = service;
     }
 
-    @GetMapping("/api/task/get/{id}")
+    @GetMapping("/get/{id}")
     public TaskDto getById(@PathVariable Long id){
         return service.getTaskById(id);
     }
 
-    @GetMapping("/api/task/getAll")
+    @GetMapping("/getAll")
     public List<TaskDto> getAll() {
         return service.getAll();
     }
 
-    @PostMapping("/api/task/create")
+    @PostMapping("/create")
     public TaskDto create(@RequestBody TaskDto dto) {
         return service.create(dto);
     }
 
-    @DeleteMapping("/api/task/delete/{id}")
+    @DeleteMapping("/delete/{id}")
     public String delete(@PathVariable Long id) {
         return service.delete(id);
     }
 
-    @PostMapping("/api/task/update")
-    public TaskDto update(@RequestBody TaskDto dto) {
-        return service.update(dto);
+    @PutMapping("/update/{id}")
+    public TaskDto update(@PathVariable Long id, @RequestBody TaskDto dto) {
+        return service.update(id, dto);
     }
 }
