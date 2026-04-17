@@ -1,0 +1,11 @@
+/home/kolya/Study/NSU/3_year/JavaSpring/TaskManager/src/main/java/com/kolya/TaskManager/TaskManagerApplication.java
+/home/kolya/Study/NSU/3_year/JavaSpring/TaskManager/src/main/java/com/kolya/TaskManager/config/SwaggerConfig.java
+/home/kolya/Study/NSU/3_year/JavaSpring/TaskManager/src/main/java/com/kolya/TaskManager/controller/MainController.java
+/home/kolya/Study/NSU/3_year/JavaSpring/TaskManager/src/main/java/com/kolya/TaskManager/dto/TaskDto.java
+/home/kolya/Study/NSU/3_year/JavaSpring/TaskManager/src/main/java/com/kolya/TaskManager/entity/Task.java
+/home/kolya/Study/NSU/3_year/JavaSpring/TaskManager/src/main/java/com/kolya/TaskManager/exception/ErrorResponse.java
+/home/kolya/Study/NSU/3_year/JavaSpring/TaskManager/src/main/java/com/kolya/TaskManager/exception/GlobalExceptionHandler.java
+/home/kolya/Study/NSU/3_year/JavaSpring/TaskManager/src/main/java/com/kolya/TaskManager/exception/TaskNotFoundException.java
+/home/kolya/Study/NSU/3_year/JavaSpring/TaskManager/src/main/java/com/kolya/TaskManager/repostitory/ITaskRepository.java
+/home/kolya/Study/NSU/3_year/JavaSpring/TaskManager/src/main/java/com/kolya/TaskManager/service/TaskService.java
+/home/kolya/Study/NSU/3_year/JavaSpring/TaskManager/src/main/java/com/kolya/TaskManager/service/impl/TaskServiceImpl.java
